@@ -1,0 +1,3 @@
+view weekly weather:
+  title: 'drush generate permissions'
+  description:  'Allows the user to view the weekly weather at the market.'

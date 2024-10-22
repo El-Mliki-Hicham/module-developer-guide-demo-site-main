@@ -1,0 +1,9 @@
+anytown.waither:
+  path: '/anytown/waither/{params}'
+  defaults:
+    _title: 'Waither'
+    
+    _controller: '\Drupal\anytown\Controller\WaitherController::build'
+    params: 'short'
+  requirements:
+    _permission: 'view weekly weather'
